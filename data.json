@@ -1,0 +1,144 @@
+{
+    "name": "flare",
+    "children": [
+      {
+        "name": "Environment",
+        "children": [
+          {
+            "name": "Biodiversity & Ecosystem",
+            "children": [
+              {"name": "Biodiversity Management", "size": 100},
+              {"name": "Management Approach", "size": 100},
+              {"name": "Protected Areas", "size": 100},
+              {"name": "Responsible Sourcing", "size": 100}
+            ]
+          },
+          {
+            "name": "Emissions & Climate Change",
+            "children": [
+              {"name": "Air Pollutants", "size": 100},
+              {"name": "GHG Emissions", "size": 100},
+              {"name": "Management Approach", "size": 100},
+              {"name": "Ozone Depletting Substances", "size": 100},
+              {"name": "Risks and Opportunities", "size": 100}
+            ]
+          },
+          {
+            "name": "Energy Use & Efficiency",
+            "children": [
+              {"name": "Energy Efficiency", "size": 100},
+              {"name": "Energy Use", "size": 100},
+              {"name": "Energy use in supply chain", "size": 100},
+              {"name": "Management Approach", "size": 100},
+              {"name": "Risks and Opportunities", "size": 100},
+              {"name": "Standards", "size": 100}
+            ]
+          },
+          {
+            "name": "Sustainable Products & Services",
+            "children": [
+              {"name": "Management Approach", "size": 100},
+              {"name": "Materials", "size": 100},
+              {"name": "Products", "size": 100}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "General Disclosures",
+        "children": [
+          {
+            "name": "theme3",
+            "children": [
+              {"name": "topic5", "size": 100},
+              {"name": "topic6", "size": 100}
+            ]
+          },
+          {
+            "name": "theme4",
+            "children": [
+              {"name": "topic7", "size": 100},
+              {"name": "topic8", "size": 100}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Governance",
+        "children": [
+          {
+            "name": "theme5",
+            "children": [
+              {"name": "topic9", "size": 100},
+              {"name": "topic10", "size": 100}
+            ]
+          },
+          {
+            "name": "theme6",
+            "children": [
+              {"name": "topic11", "size": 100},
+              {"name": "topic12", "size": 100}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Disclosure",
+        "children": [
+          {
+            "name": "theme7",
+            "children": [
+              {"name": "topic13", "size": 100},
+              {"name": "topic14", "size": 100}
+            ]
+          },
+          {
+            "name": "theme8",
+            "children": [
+              {"name": "topic15", "size": 100},
+              {"name": "topic16", "size": 100}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Social",
+        "children": [
+          {
+            "name": "theme9",
+            "children": [
+              {"name": "topic17", "size": 100},
+              {"name": "topic18", "size": 100}
+            ]
+          },
+          {
+            "name": "theme10",
+            "children": [
+              {"name": "topic19", "size": 100},
+              {"name": "topic20", "size": 100}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Blank",
+        "children": [
+          {
+            "name": "theme9",
+            "children": [
+              {"name": "topic17", "size": 100},
+              {"name": "topic18", "size": 100}
+            ]
+          },
+          {
+            "name": "theme10",
+            "children": [
+              {"name": "topic19", "size": 100},
+              {"name": "topic20", "size": 100}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
