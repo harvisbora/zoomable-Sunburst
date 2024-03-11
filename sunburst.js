@@ -16,7 +16,8 @@ fetch('data.json')
     var color = d3.scaleOrdinal().range(d3.quantize(d3.interpolateRainbow, data.children.length + 1));
     var format = d3.format(",d");
 
-    var width = 632;
+    var width = 900;
+    var height = 1000;
     var radius = width / 6;
 
     var arc = d3.arc()
@@ -64,6 +65,7 @@ fetch('data.json')
       .attr("dy", "0.35em")
       .attr("fill-opacity", d => +labelVisible(d.current))
       .attr("transform", d => labelTransform(d.current))
+      .style("font-size", "9px")  // Adjust the font size as needed
       .text(d => d.data.name);
 
     const parent = g.append("circle")

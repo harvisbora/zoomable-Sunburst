@@ -51,6 +51,17 @@
               {"name": "Waste Generation", "size": 100},
               {"name": "Waste Recovery", "size": 100}
             ]
+          },
+          {
+            "name": "Water Use & Management",
+            "children": [
+              {"name": "Management Approach", "size": 100},
+              {"name": "Risks and Opportunities", "size": 100},
+              {"name": "Water Consumption", "size": 100},
+              {"name": "Water Discharge", "size": 100},
+              {"name": "Water Efficiency", "size": 100},
+              {"name": "Water Withdrawn", "size": 100}
+            ]
           }
         ]
       },
@@ -58,17 +69,34 @@
         "name": "General Disclosures",
         "children": [
           {
-            "name": "theme3",
+            "name": "Admin",
             "children": [
-              {"name": "topic5", "size": 100},
-              {"name": "topic6", "size": 100}
+              {"name": "Transparency and Disclosure Compliances", "size": 100}
             ]
           },
           {
-            "name": "theme4",
+            "name": "Corporate",
             "children": [
-              {"name": "topic7", "size": 100},
-              {"name": "topic8", "size": 100}
+              {"name": "CSR Details", "size": 100},
+              {"name": "Details of the listed entity", "size": 100},
+              {"name": "Holding, Subsidiary and Associate Companies", "size": 100},
+              {"name": "Operations", "size": 100},
+              {"name": "Products/Services", "size": 100},
+              {"name": "Transparency and Disclosure Compliances", "size": 100}
+            ]
+          },
+          {
+            "name": "Finance",
+            "children": [
+              {"name": "Markets served by the entitiy", "size": 100}
+            ]
+          },
+          {
+            "name": "HR",
+            "children": [
+              {"name": "Employees", "size": 100},
+              {"name": "Gender Diversity", "size": 100},
+              {"name": "Turnover Rate", "size": 100}
             ]
           }
         ]
@@ -77,36 +105,59 @@
         "name": "Governance",
         "children": [
           {
-            "name": "theme5",
+            "name": "Board Governance",
             "children": [
-              {"name": "topic9", "size": 100},
-              {"name": "topic10", "size": 100}
+              {"name": "Board Compensation", "size": 100},
+              {"name": "Board Committees", "size": 100},
+              {"name": "Board Diversity", "size": 100},
+              {"name": "Board Independence", "size": 100},
+              {"name": "Board Performance", "size": 100},
+              {"name": "Board Responsibility", "size": 100},
+              {"name": "Board Selection", "size": 100}
             ]
           },
           {
-            "name": "theme6",
+            "name": "Business Ethics",
             "children": [
-              {"name": "topic11", "size": 100},
-              {"name": "topic12", "size": 100}
+              {"name": "Anti-Corruption", "size": 100},
+              {"name": "Code of Conduct", "size": 100},
+              {"name": "Fair Trade practices", "size": 100},
+              {"name": "Public Policy", "size": 100},
+              {"name": "Taxation", "size": 100}
+            ]
+          },
+          {
+            "name": "Executive Compensation",
+            "children": [
+              {"name": "Compensation Ratio", "size": 100},
+              {"name": "Remuneration Policy", "size": 100}
+            ]
+          },
+          {
+            "name": "Risk & Control",
+            "children": [
+              {"name": "Data Security", "size": 100}
+            ]
+          },
+          {
+            "name": "Transparency & Disclosure",
+            "children": [
+              {"name": "Conflict of Interest ", "size": 100},
+              {"name": "Critical Concerns", "size": 100},
+              {"name": "Disclosure", "size": 100},
+              {"name": "Stakeholder Engagement ", "size": 100}
             ]
           }
         ]
       },
       {
-        "name": "Disclosure",
+        "name": "Management and Process Disclosure",
         "children": [
           {
-            "name": "theme7",
+            "name": "Corporate",
             "children": [
-              {"name": "topic13", "size": 100},
-              {"name": "topic14", "size": 100}
-            ]
-          },
-          {
-            "name": "theme8",
-            "children": [
-              {"name": "topic15", "size": 100},
-              {"name": "topic16", "size": 100}
+              {"name": "Governance, leadership and oversight", "size": 100},
+              {"name": "Policy and management processes", "size": 100}
             ]
           }
         ]
@@ -115,17 +166,69 @@
         "name": "Social",
         "children": [
           {
-            "name": "theme9",
+            "name": "Business & Human Rights",
             "children": [
-              {"name": "topic17", "size": 100},
-              {"name": "topic18", "size": 100}
+              {"name": "BHR Assessment", "size": 100},
+              {"name": "BHR Training", "size": 100},
+              {"name": "Child & Forced Labour", "size": 100},
+              {"name": "Freedom of association & collective bargaining", "size": 100},
+              {"name": "Grievance Mechanism", "size": 100},
+              {"name": "Management Approach", "size": 100},
+              {"name": "Standards", "size": 100}
+              
             ]
           },
           {
-            "name": "theme10",
+            "name": "Community Relations",
             "children": [
-              {"name": "topic19", "size": 100},
-              {"name": "topic20", "size": 100}
+              {"name": "CSR", "size": 100},
+              {"name": "Impact Assessment", "size": 100},
+              {"name": "Indigenous People", "size": 100},
+              {"name": "Indirect Economic Impacts", "size": 100}
+            ]
+          },
+          {
+            "name": "Customer Well being",
+            "children": [
+              {"name": "Customer Health & Safety", "size": 100},
+              {"name": "Customer Privacy", "size": 100},
+              {"name": "Customer Satisfaction", "size": 100}
+            ]
+          },
+          {
+            "name": "DEI",
+            "children": [
+              {"name": "Diversity", "size": 100},
+              {"name": "Inclusion", "size": 100},
+              {"name": "Management Approach", "size": 100},
+              {"name": "Non Discrimination", "size": 100}
+            ]
+          },
+          {
+            "name": "Human Capital",
+            "children": [
+              {"name": "Employee Satisfaction", "size": 100},
+              {"name": "Employment Practices", "size": 100},
+              {"name": "Training & Development", "size": 100}
+            ]
+          },
+          {
+            "name": "OHS",
+            "children": [
+              {"name": "Injuries & fatalities", "size": 100},
+              {"name": "OHS Implementation", "size": 100},
+              {"name": "OHS Management Approach", "size": 100},
+              {"name": "Work related ill-health", "size": 100}
+            ]
+          },
+          {
+            "name": "Product Responsibility",
+            "children": [
+              {"name": "Management Approach", "size": 100},
+              {"name": "Product Access", "size": 100},
+              {"name": "Product Communication", "size": 100},
+              {"name": "Product Quality", "size": 100},
+              {"name": "Product Safety ", "size": 100}
             ]
           }
         ]
@@ -134,17 +237,28 @@
         "name": "Blank",
         "children": [
           {
-            "name": "theme9",
+            "name": "Compliances ",
             "children": [
-              {"name": "topic17", "size": 100},
-              {"name": "topic18", "size": 100}
+              {"name": "tEnviroment", "size": 100},
+              {"name": "Governance", "size": 100},
+              {"name": "Social", "size": 100}
             ]
           },
           {
-            "name": "theme10",
+            "name": "ESMS",
             "children": [
-              {"name": "topic19", "size": 100},
-              {"name": "topic20", "size": 100}
+              {"name": "Management Approach", "size": 100},
+              {"name": "Risks & Opportunities", "size": 100},
+              {"name": "Standards", "size": 100}
+            ]
+          },
+          {
+            "name": "Sustainable Supply Chain",
+            "children": [
+              {"name": "Management Approach", "size": 100},
+              {"name": "Supplier Engagement", "size": 100},
+              {"name": "Supplier Enviromental Assessment", "size": 100},
+              {"name": "Supplier Social Assessment", "size": 100}
             ]
           }
         ]
