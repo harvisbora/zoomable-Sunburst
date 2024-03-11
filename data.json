@@ -41,6 +41,16 @@
               {"name": "Materials", "size": 100},
               {"name": "Products", "size": 100}
             ]
+          },
+          {
+            "name": "Waste & Circularity",
+            "children": [
+              {"name": "Management Approach", "size": 100},
+              {"name": "Risks and Opportunities", "size": 100},
+              {"name": "Waste Disposal", "size": 100},
+              {"name": "Waste Generation", "size": 100},
+              {"name": "Waste Recovery", "size": 100}
+            ]
           }
         ]
       },
