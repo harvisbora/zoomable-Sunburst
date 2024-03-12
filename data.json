@@ -7,60 +7,60 @@
           {
             "name": "Biodiversity & Ecosystem",
             "children": [
-              {"name": "Biodiversity Management", "size": 100},
-              {"name": "Management Approach", "size": 100},
-              {"name": "Protected Areas", "size": 100},
-              {"name": "Responsible Sourcing", "size": 100}
+              {"name": "Biodiversity Management", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Management Approach", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Protected Areas", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Responsible Sourcing", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]}
             ]
           },
           {
             "name": "Emissions & Climate Change",
             "children": [
-              {"name": "Air Pollutants", "size": 100},
-              {"name": "GHG Emissions", "size": 100},
-              {"name": "Management Approach", "size": 100},
-              {"name": "Ozone Depletting Substances", "size": 100},
-              {"name": "Risks and Opportunities", "size": 100}
+              {"name": "Air Pollutants",  "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "GHG Emissions",  "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Management Approach",  "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Ozone Depletting Substances",  "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Risks and Opportunities",  "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]}
             ]
           },
           {
             "name": "Energy Use & Efficiency",
             "children": [
-              {"name": "Energy Efficiency", "size": 100},
-              {"name": "Energy Use", "size": 100},
-              {"name": "Energy use in supply chain", "size": 100},
-              {"name": "Management Approach", "size": 100},
-              {"name": "Risks and Opportunities", "size": 100},
-              {"name": "Standards", "size": 100}
+              {"name": "Energy Efficiency",  "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Energy Use",  "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Energy use in supply chain",  "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Management Approach",  "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Risks and Opportunities",  "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Standards",  "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]}
             ]
           },
           {
             "name": "Sustainable Products & Services",
             "children": [
-              {"name": "Management Approach", "size": 100},
-              {"name": "Materials", "size": 100},
-              {"name": "Products", "size": 100}
+              {"name": "Management Approach",  "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Materials",  "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Products",  "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]}
             ]
           },
           {
             "name": "Waste & Circularity",
             "children": [
-              {"name": "Management Approach", "size": 100},
-              {"name": "Risks and Opportunities", "size": 100},
-              {"name": "Waste Disposal", "size": 100},
-              {"name": "Waste Generation", "size": 100},
-              {"name": "Waste Recovery", "size": 100}
+              {"name": "Management Approach",  "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Risks and Opportunities",  "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Waste Disposal",  "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Waste Generation",  "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Waste Recovery",  "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]}
             ]
           },
           {
             "name": "Water Use & Management",
             "children": [
-              {"name": "Management Approach", "size": 100},
-              {"name": "Risks and Opportunities", "size": 100},
-              {"name": "Water Consumption", "size": 100},
-              {"name": "Water Discharge", "size": 100},
-              {"name": "Water Efficiency", "size": 100},
-              {"name": "Water Withdrawn", "size": 100}
+              {"name": "Management Approach",  "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Risks and Opportunities",  "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Water Consumption",  "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Water Discharge",  "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Water Efficiency",  "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Water Withdrawn",  "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]}
             ]
           }
         ]
@@ -71,32 +71,32 @@
           {
             "name": "Admin",
             "children": [
-              {"name": "Transparency and Disclosure Compliances", "size": 100}
+              {"name": "Transparency and Disclosure Compliances",  "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]}
             ]
           },
           {
             "name": "Corporate",
             "children": [
-              {"name": "CSR Details", "size": 100},
-              {"name": "Details of the listed entity", "size": 100},
-              {"name": "Holding, Subsidiary and Associate Companies", "size": 100},
-              {"name": "Operations", "size": 100},
-              {"name": "Products/Services", "size": 100},
-              {"name": "Transparency and Disclosure Compliances", "size": 100}
+              {"name": "CSR Details",  "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Details of the listed entity", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Holding, Subsidiary and Associate Companies", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Operations", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Products/Services", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Transparency and Disclosure Compliances", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]}
             ]
           },
           {
             "name": "Finance",
             "children": [
-              {"name": "Markets served by the entitiy", "size": 100}
+              {"name": "Markets served by the entitiy", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]}
             ]
           },
           {
             "name": "HR",
             "children": [
-              {"name": "Employees", "size": 100},
-              {"name": "Gender Diversity", "size": 100},
-              {"name": "Turnover Rate", "size": 100}
+              {"name": "Employees", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Gender Diversity", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Turnover Rate", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]}
             ]
           }
         ]
@@ -107,45 +107,45 @@
           {
             "name": "Board Governance",
             "children": [
-              {"name": "Board Compensation", "size": 100},
-              {"name": "Board Committees", "size": 100},
-              {"name": "Board Diversity", "size": 100},
-              {"name": "Board Independence", "size": 100},
-              {"name": "Board Performance", "size": 100},
-              {"name": "Board Responsibility", "size": 100},
-              {"name": "Board Selection", "size": 100}
+              {"name": "Board Compensation", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Board Committees", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Board Diversity", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Board Independence", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Board Performance", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Board Responsibility", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Board Selection", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]}
             ]
           },
           {
             "name": "Business Ethics",
             "children": [
-              {"name": "Anti-Corruption", "size": 100},
-              {"name": "Code of Conduct", "size": 100},
-              {"name": "Fair Trade practices", "size": 100},
-              {"name": "Public Policy", "size": 100},
-              {"name": "Taxation", "size": 100}
+              {"name": "Anti-Corruption", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Code of Conduct", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Fair Trade practices", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Public Policy", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Taxation", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]}
             ]
           },
           {
             "name": "Executive Compensation",
             "children": [
-              {"name": "Compensation Ratio", "size": 100},
-              {"name": "Remuneration Policy", "size": 100}
+              {"name": "Compensation Ratio", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Remuneration Policy", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]}
             ]
           },
           {
             "name": "Risk & Control",
             "children": [
-              {"name": "Data Security", "size": 100}
+              {"name": "Data Security", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]}
             ]
           },
           {
             "name": "Transparency & Disclosure",
             "children": [
-              {"name": "Conflict of Interest ", "size": 100},
-              {"name": "Critical Concerns", "size": 100},
-              {"name": "Disclosure", "size": 100},
-              {"name": "Stakeholder Engagement ", "size": 100}
+              {"name": "Conflict of Interest ", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Critical Concerns", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Disclosure", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Stakeholder Engagement ", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]}
             ]
           }
         ]
@@ -156,8 +156,8 @@
           {
             "name": "Corporate",
             "children": [
-              {"name": "Governance, leadership and oversight", "size": 100},
-              {"name": "Policy and management processes", "size": 100}
+              {"name": "Governance, leadership and oversight", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Policy and management processes", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]}
             ]
           }
         ]
@@ -168,67 +168,67 @@
           {
             "name": "Business & Human Rights",
             "children": [
-              {"name": "BHR Assessment", "size": 100},
-              {"name": "BHR Training", "size": 100},
-              {"name": "Child & Forced Labour", "size": 100},
-              {"name": "Freedom of association & collective bargaining", "size": 100},
-              {"name": "Grievance Mechanism", "size": 100},
-              {"name": "Management Approach", "size": 100},
-              {"name": "Standards", "size": 100}
+              {"name": "BHR Assessment", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "BHR Training", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Child & Forced Labour", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Freedom of association & collective bargaining", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Grievance Mechanism", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Management Approach", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Standards", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]}
               
             ]
           },
           {
             "name": "Community Relations",
             "children": [
-              {"name": "CSR", "size": 100},
-              {"name": "Impact Assessment", "size": 100},
-              {"name": "Indigenous People", "size": 100},
-              {"name": "Indirect Economic Impacts", "size": 100}
+              {"name": "CSR", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Impact Assessment", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Indigenous People", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Indirect Economic Impacts", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]}
             ]
           },
           {
             "name": "Customer Well being",
             "children": [
-              {"name": "Customer Health & Safety", "size": 100},
-              {"name": "Customer Privacy", "size": 100},
-              {"name": "Customer Satisfaction", "size": 100}
+              {"name": "Customer Health & Safety", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Customer Privacy", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Customer Satisfaction", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]}
             ]
           },
           {
             "name": "DEI",
             "children": [
-              {"name": "Diversity", "size": 100},
-              {"name": "Inclusion", "size": 100},
-              {"name": "Management Approach", "size": 100},
-              {"name": "Non Discrimination", "size": 100}
+              {"name": "Diversity", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Inclusion", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Management Approach", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Non Discrimination", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]}
             ]
           },
           {
             "name": "Human Capital",
             "children": [
-              {"name": "Employee Satisfaction", "size": 100},
-              {"name": "Employment Practices", "size": 100},
-              {"name": "Training & Development", "size": 100}
+              {"name": "Employee Satisfaction", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Employment Practices", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Training & Development", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]}
             ]
           },
           {
             "name": "OHS",
             "children": [
-              {"name": "Injuries & fatalities", "size": 100},
-              {"name": "OHS Implementation", "size": 100},
-              {"name": "OHS Management Approach", "size": 100},
-              {"name": "Work related ill-health", "size": 100}
+              {"name": "Injuries & fatalities", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "OHS Implementation", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "OHS Management Approach", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Work related ill-health", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]}
             ]
           },
           {
             "name": "Product Responsibility",
             "children": [
-              {"name": "Management Approach", "size": 100},
-              {"name": "Product Access", "size": 100},
-              {"name": "Product Communication", "size": 100},
-              {"name": "Product Quality", "size": 100},
-              {"name": "Product Safety ", "size": 100}
+              {"name": "Management Approach", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Product Access", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Product Communication", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Product Quality", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Product Safety ", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]}
             ]
           }
         ]
@@ -239,26 +239,26 @@
           {
             "name": "Compliances ",
             "children": [
-              {"name": "tEnviroment", "size": 100},
-              {"name": "Governance", "size": 100},
-              {"name": "Social", "size": 100}
+              {"name": "tEnviroment", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Governance", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Social", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]}
             ]
           },
           {
             "name": "ESMS",
             "children": [
-              {"name": "Management Approach", "size": 100},
-              {"name": "Risks & Opportunities", "size": 100},
-              {"name": "Standards", "size": 100}
+              {"name": "Management Approach", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Risks & Opportunities", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Standards", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]}
             ]
           },
           {
             "name": "Sustainable Supply Chain",
             "children": [
-              {"name": "Management Approach", "size": 100},
-              {"name": "Supplier Engagement", "size": 100},
-              {"name": "Supplier Enviromental Assessment", "size": 100},
-              {"name": "Supplier Social Assessment", "size": 100}
+              {"name": "Management Approach", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Supplier Engagement", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Supplier Enviromental Assessment", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Supplier Social Assessment", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]}
             ]
           }
         ]
