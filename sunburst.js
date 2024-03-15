@@ -18,9 +18,9 @@ fetch('data.json')
     
     var format = d3.format(",d");
 
-    var width = 900;
-    var height = 1000;
-    var radius = width / 6;
+    var width = 1500;
+    var height = 1500;
+    var radius = 1000 / 6;
 
     var arc = d3.arc()
       .startAngle(d => d.x0)
