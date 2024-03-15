@@ -7,60 +7,60 @@
           {
             "name": "Biodiversity & Ecosystem",
             "children": [
-              {"name": "Biodiversity Management", "children": [{"name": "Filled", "size": 19}, {"name": "Not Filled", "size": 10}]},
-              {"name": "Management Approach", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
-              {"name": "Protected Areas", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
-              {"name": "Responsible Sourcing", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]}
+              {"name": "Biodiversity Management", "children": [ {"name": "Filled", "size": 100}]},
+              {"name": "Management Approach",  "size": 100},
+              {"name": "Protected Areas", "children": [{"name": "Filled", "size": 100}]},
+              {"name": "Responsible Sourcing", "size": 100}
             ]
           },
           {
             "name": "Emissions & Climate Change",
             "children": [
-              {"name": "Air Pollutants",  "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
-              {"name": "GHG Emissions",  "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
-              {"name": "Management Approach",  "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
-              {"name": "Ozone Depletting Substances",  "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
-              {"name": "Risks and Opportunities",  "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]}
+              {"name": "Air Pollutants", "size": 100},
+              {"name": "GHG Emissions",  "children": [{"name": "Filled", "size": 100}]},
+              {"name": "Management Approach",  "children": [{"name": "Filled", "size": 100} ]},
+              {"name": "Ozone Depletting Substances",  "children": [{"name": "Filled", "size": 100} ]},
+              {"name": "Risks and Opportunities",  "size": 100}
             ]
           },
           {
             "name": "Energy Use & Efficiency",
             "children": [
-              {"name": "Energy Efficiency",  "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
-              {"name": "Energy Use",  "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
-              {"name": "Energy use in supply chain",  "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
-              {"name": "Management Approach",  "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
-              {"name": "Risks and Opportunities",  "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
-              {"name": "Standards",  "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]}
+              {"name": "Energy Efficiency",  "size": 100},
+              {"name": "Energy Use",  "size": 100},
+              {"name": "Energy use in supply chain",  "size": 100},
+              {"name": "Management Approach",  "children": [{"name": "Filled", "size": 100}]},
+              {"name": "Risks and Opportunities",  "children": [{"name": "Filled", "size": 100}]},
+              {"name": "Standards",  "children": [{"name": "Filled", "size": 100}]}
             ]
           },
           {
             "name": "Sustainable Products & Services",
             "children": [
-              {"name": "Management Approach",  "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
-              {"name": "Materials",  "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
-              {"name": "Products",  "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]}
+              {"name": "Management Approach",  "size": 100},
+              {"name": "Materials",  "children": [{"name": "Filled", "size": 100}]},
+              {"name": "Products",  "children": [{"name": "Filled", "size": 100}]}
             ]
           },
           {
             "name": "Waste & Circularity",
             "children": [
-              {"name": "Management Approach",  "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
-              {"name": "Risks and Opportunities",  "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
-              {"name": "Waste Disposal",  "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
-              {"name": "Waste Generation",  "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
-              {"name": "Waste Recovery",  "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]}
+              {"name": "Management Approach", "size": 100},
+              {"name": "Risks and Opportunities",  "children": [{"name": "Filled", "size": 100}]},
+              {"name": "Waste Disposal",  "children": [{"name": "Filled", "size": 100}]},
+              {"name": "Waste Generation",  "children": [{"name": "Filled", "size": 100}]},
+              {"name": "Waste Recovery",  "size": 100}
             ]
           },
           {
             "name": "Water Use & Management",
             "children": [
-              {"name": "Management Approach",  "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Management Approach",  "size": 100},
               {"name": "Risks and Opportunities",  "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
-              {"name": "Water Consumption",  "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
-              {"name": "Water Discharge",  "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
-              {"name": "Water Efficiency",  "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
-              {"name": "Water Withdrawn",  "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]}
+              {"name": "Water Consumption",  "size": 100},
+              {"name": "Water Discharge",  "size": 100},
+              {"name": "Water Efficiency",  "children": [{"name": "Filled", "size": 100}]},
+              {"name": "Water Withdrawn",  "size": 100}
             ]
           }
         ]
