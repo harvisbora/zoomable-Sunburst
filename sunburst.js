@@ -39,7 +39,8 @@ fetch('data.json')
       .attr("height", height)
       .style("font", "10px sans-serif")
       .style("display", "block")
-      .style("margin", "auto");
+      .style("margin", "auto")
+      .style('overflow', 'visible')
 
     const g = svg.append("g")
       .attr("transform", `translate(${width / 2},${height / 2})`);
