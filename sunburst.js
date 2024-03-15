@@ -13,7 +13,9 @@ fetch('data.json')
         (root);
     }
 
-    var color = d3.scaleOrdinal().range(d3.quantize(d3.interpolateRainbow, data.children.length + 1));
+    // Modify the color scale initialization to set the darkest shade for the last level
+    var color = d3.scaleOrdinal().range(d3.quantize(d3.interpolateRainbow, data.children.length + 1).reverse());
+    
     var format = d3.format(",d");
 
     var width = 900;
@@ -25,20 +27,22 @@ fetch('data.json')
       .endAngle(d => d.x1)
       .padAngle(d => Math.min((d.x1 - d.x0) / 2, 0.005))
       .padRadius(radius * 1.5)
-      .innerRadius(d => d.y0 * radius)
-      .outerRadius(d => Math.max(d.y0 * radius, d.y1 * radius - 1));
+      .innerRadius(d => Math.max(0, d.y0 * radius))
+      .outerRadius(d => Math.max(0, d.y1 * radius - 1));
 
     const root = partition(data);
 
     root.each(d => d.current = d);
 
     const svg = d3.select("body").append("svg")
-      .style("width", width)
-      .style("height", width)
-      .style("font", "10px sans-serif");
+      .attr("width", width)
+      .attr("height", height)
+      .style("font", "10px sans-serif")
+      .style("display", "block")
+      .style("margin", "auto");
 
     const g = svg.append("g")
-      .attr("transform", `translate(${width / 2},${width / 2})`);
+      .attr("transform", `translate(${width / 2},${height / 2})`);
 
     const path = g.append("g")
       .selectAll("path")
@@ -106,11 +110,11 @@ fetch('data.json')
     }
 
     function arcVisible(d) {
-      return d.y1 <= 3 && d.y0 >= 1 && d.x1 > d.x0;
+      return d.y1 <= 4 && d.y0 >= 1 && d.x1 > d.x0;
     }
 
     function labelVisible(d) {
-      return d.y1 <= 3 && d.y0 >= 1 && (d.y1 - d.y0) * (d.x1 - d.x0) > 0.03;
+      return d.y1 <= 4 && d.y0 >= 1 && (d.y1 - d.y0) * (d.x1 - d.x0) > 0.03;
     }
 
     function labelTransform(d) {
@@ -118,10 +122,4 @@ fetch('data.json')
       const y = (d.y0 + d.y1) / 2 * radius;
       return `rotate(${x - 90}) translate(${y},0) rotate(${x < 180 ? 0 : 180})`;
     }
-
-    d3.select("body").append("svg")
-      .attr("width", width)
-      .attr("height", height)
-      .append("g")
-      .attr("transform", "translate(" + width / 2 + "," + (height / 2) + ")");
   })

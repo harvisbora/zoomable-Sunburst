@@ -7,7 +7,7 @@
           {
             "name": "Biodiversity & Ecosystem",
             "children": [
-              {"name": "Biodiversity Management", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
+              {"name": "Biodiversity Management", "children": [{"name": "Filled", "size": 19}, {"name": "Not Filled", "size": 10}]},
               {"name": "Management Approach", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
               {"name": "Protected Areas", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]},
               {"name": "Responsible Sourcing", "children": [{"name": "Filled", "size": 100}, {"name": "Not Filled", "size": 100}]}
