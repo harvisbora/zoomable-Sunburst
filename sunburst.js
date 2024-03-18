@@ -50,8 +50,8 @@ fetch('data.json')
       .data(root.descendants().slice(1))
       .enter().append("path")
       .attr("fill", d => {
-        if (!d.children) {
-          return "grey"; // Set color to grey if there are no children
+        if (!d.children && d.data.name !== "Filled") {
+          return "grey"; // Set color to grey if there are no children and the label is not "Filled"
         }
         while (d.depth > 1) d = d.parent; return color(d.data.name);
       })
